@@ -1,0 +1,35 @@
+body {
+  --saturation-factor: 1;
+  --bg-gradient-chroma-glow-1: hsl(183.39 calc(1 * 86.341%) 40.196% /1);
+  --bg-gradient-chroma-glow-1-hsl: 183.39
+    calc(var(--saturation-factor, 1) * 86.341%) 40.196%;
+  --bg-gradient-chroma-glow-2: hsl(258.113 calc(1 * 89.831%) 46.275% /1);
+  --bg-gradient-chroma-glow-2-hsl: 258.113
+    calc(var(--saturation-factor, 1) * 89.831%) 46.275%;
+  --bg-gradient-chroma-glow-3: hsl(298.491 calc(1 * 90.857%) 34.314% /1);
+  --bg-gradient-chroma-glow-3-hsl: 298.491
+    calc(var(--saturation-factor, 1) * 90.857%) 34.314%;
+  --bg-gradient-chroma-glow-4: hsl(264.767 calc(1 * 100%) 66.275% /1);
+  --bg-gradient-chroma-glow-4-hsl: 264.767
+    calc(var(--saturation-factor, 1) * 100%) 66.275%;
+  --bg-gradient-chroma-glow-5: hsl(206.702 calc(1 * 75.494%) 50.392% /1);
+  --bg-gradient-chroma-glow-5-hsl: 206.702
+    calc(var(--saturation-factor, 1) * 75.494%) 50.392%;
+  background-color: #000000;
+  background: linear-gradient(
+    128.92deg,
+    var(--bg-gradient-chroma-glow-1) 3.94%,
+    var(--bg-gradient-chroma-glow-2) 26.1%,
+    var(--bg-gradient-chroma-glow-3) 39.82%,
+    var(--bg-gradient-chroma-glow-4) 56.89%,
+    var(--bg-gradient-chroma-glow-5) 76.45%
+  );
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
