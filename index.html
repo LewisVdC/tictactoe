@@ -1,7 +1,49 @@
 <head>
-  <title>down load</title>
-  <link rel="stylesheet" href="huh.css"></link>
+  <title>tic tac toe</title>
+  <link rel="stylesheet" href="huh.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <div id="overlay"></div>
+  <div id="overlay">
+    <div id="start">
+      <div id="results"></div>
+    </div>
+    <div id="gridcontainer">
+      <div id="grid">
+        <div id="b1" onClick="clickb(1)" class="gridbox right bottom">
+          <span id="s1"></span>
+        </div>
+        <div id="b2" onClick="clickb(2)" class="gridbox bottom">
+          <span id="s2"></span>
+        </div>
+        <div id="b3" onClick="clickb(3)" class="gridbox left bottom">
+          <span id="s3"></span>
+        </div>
+        <div id="b4" onClick="clickb(4)" class="gridbox right">
+          <span id="s4"></span>
+        </div>
+        <div id="b5" onClick="clickb(5)" class="gridbox">
+          <span id="s5"></span>
+        </div>
+        <div id="b6" onClick="clickb(6)" class="gridbox left">
+          <span id="s6"></span>
+        </div>
+        <div id="b7" onClick="clickb(7)" class="gridbox right top">
+          <span id="s7"></span>
+        </div>
+        <div id="b8" onClick="clickb(8)" class="gridbox top">
+          <span id="s8"></span>
+        </div>
+        <div id="b9" onClick="clickb(9)" class="gridbox left top">
+          <span id="s9"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
 </body>
