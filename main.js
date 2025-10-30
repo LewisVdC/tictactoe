@@ -4,6 +4,14 @@ var turn = 0;
 var turncount = 0;
 var youwin = 0;
 
+document.body.addEventListener(
+  "touchmove",
+  function (e) {
+    e.preventDefault();
+  },
+  { passive: false }
+);
+
 function clickb(number) {
   turncount += 1;
   if (player.includes(number) || enemy.includes(number)) {
