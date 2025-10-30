@@ -25,6 +25,7 @@ body {
     var(--bg-gradient-chroma-glow-5) 76.45%
   );
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 #overlay {
   position: absolute;
